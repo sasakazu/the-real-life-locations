@@ -8,6 +8,9 @@ target 'real-life-locations' do
   # Pods for real-life-locations
   
   pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
 
   target 'real-life-locationsTests' do
     inherit! :search_paths

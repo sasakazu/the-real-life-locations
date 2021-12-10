@@ -17,6 +17,8 @@
 		735DC7BF27634AC900665C05 /* real_life_locationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7BE27634AC900665C05 /* real_life_locationsTests.swift */; };
 		735DC7C927634AC900665C05 /* real_life_locationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7C827634AC900665C05 /* real_life_locationsUITests.swift */; };
 		735DC7CB27634AC900665C05 /* real_life_locationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7CA27634AC900665C05 /* real_life_locationsUITestsLaunchTests.swift */; };
+		735DC7D927634D3B00665C05 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7D827634D3B00665C05 /* login.swift */; };
+		735DC7DB27634D6800665C05 /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7DA27634D6800665C05 /* signup.swift */; };
 		86C44955882B1B34F4D97140 /* Pods_real_life_locationsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0122E305C6BD98076069FC13 /* Pods_real_life_locationsTests.framework */; };
 		C3CD25B35329B868E116688E /* Pods_real_life_locations_real_life_locationsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F61B69F003DC3FF54F795AD /* Pods_real_life_locations_real_life_locationsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +59,8 @@
 		735DC7C427634AC900665C05 /* real-life-locationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-life-locationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		735DC7C827634AC900665C05 /* real_life_locationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_life_locationsUITests.swift; sourceTree = "<group>"; };
 		735DC7CA27634AC900665C05 /* real_life_locationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_life_locationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		735DC7D827634D3B00665C05 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		735DC7DA27634D6800665C05 /* signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
 		D1E61D0A381B0F81BF26695F /* Pods-real-life-locationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-real-life-locationsTests.debug.xcconfig"; path = "Target Support Files/Pods-real-life-locationsTests/Pods-real-life-locationsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D89B01499F0DEA33983F6E06 /* Pods-real-life-locations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-real-life-locations.release.xcconfig"; path = "Target Support Files/Pods-real-life-locations/Pods-real-life-locations.release.xcconfig"; sourceTree = "<group>"; };
 		EC533A8DE046009F3A6D8B68 /* Pods_real_life_locations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_real_life_locations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,13 +105,13 @@
 				D1E61D0A381B0F81BF26695F /* Pods-real-life-locationsTests.debug.xcconfig */,
 				30CD81156F5D48C0A38468C1 /* Pods-real-life-locationsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		735DC79B27634AC700665C05 = {
 			isa = PBXGroup;
 			children = (
+				735DC7D727634CCE00665C05 /* login */,
 				735DC7A627634AC700665C05 /* real-life-locations */,
 				735DC7BD27634AC900665C05 /* real-life-locationsTests */,
 				735DC7C727634AC900665C05 /* real-life-locationsUITests */,
@@ -156,6 +160,15 @@
 				735DC7CA27634AC900665C05 /* real_life_locationsUITestsLaunchTests.swift */,
 			);
 			path = "real-life-locationsUITests";
+			sourceTree = "<group>";
+		};
+		735DC7D727634CCE00665C05 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				735DC7D827634D3B00665C05 /* login.swift */,
+				735DC7DA27634D6800665C05 /* signup.swift */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 		CA814CEF82E22C66DB8247EE /* Frameworks */ = {
@@ -409,7 +422,9 @@
 			files = (
 				735DC7AC27634AC700665C05 /* ViewController.swift in Sources */,
 				735DC7A827634AC700665C05 /* AppDelegate.swift in Sources */,
+				735DC7DB27634D6800665C05 /* signup.swift in Sources */,
 				735DC7AA27634AC700665C05 /* SceneDelegate.swift in Sources */,
+				735DC7D927634D3B00665C05 /* login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
