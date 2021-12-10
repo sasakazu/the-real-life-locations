@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_real_life_locations_real_life_locationsUITests : NSObject
+@end
+@implementation PodsDummy_Pods_real_life_locations_real_life_locationsUITests
+@end

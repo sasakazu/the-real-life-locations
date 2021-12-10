@@ -1,0 +1,6 @@
+framework module Pods_real_life_locations {
+  umbrella header "Pods-real-life-locations-umbrella.h"
+
+  export *
+  module * { export * }
+}
