@@ -1,13 +1,13 @@
 //
-//  signup.swift
+//  accountTop.swift
 //  real-life-locations
 //
-//  Created by 笹倉一也 on 2021/12/10.
+//  Created by 笹倉一也 on 2021/12/11.
 //
 
 import UIKit
 
-class signup: UIViewController {
+class accountTop: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +15,7 @@ class signup: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+
 
 
 }

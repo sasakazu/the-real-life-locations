@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>51549936647-6ijc2ma61rdntf65opug4mn437js72ad.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.51549936647-6ijc2ma61rdntf65opug4mn437js72ad</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDLiKePuLPN2KdRUJfeBrBiN40Ydxt_y_g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>51549936647</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kazuyasasakura.real-life-locations</string>
+	<key>PROJECT_ID</key>
+	<string>the-real-life-locations</string>
+	<key>STORAGE_BUCKET</key>
+	<string>the-real-life-locations.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:51549936647:ios:83ad214219d220760f5ea2</string>
+</dict>
+</plist>

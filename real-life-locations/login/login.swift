@@ -23,6 +23,12 @@ class login: UIViewController {
 
     @IBAction func loginBtn(_ sender: Any) {
         
+        Auth.auth().signIn(withEmail: emailTF.text!, password: passTF.text!) { [weak self] authResult, error in
+          guard let strongSelf = self else { return }
+          // ...
+        
+        
+        }
         
         
     }
