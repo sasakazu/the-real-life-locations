@@ -11,7 +11,10 @@ target 'real-life-locations' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
-
+  pod 'Firebase/Storage'
+  pod 'SDWebImage'
+  pod 'DKImagePickerController'
+   
   target 'real-life-locationsTests' do
     inherit! :search_paths
     # Pods for testing

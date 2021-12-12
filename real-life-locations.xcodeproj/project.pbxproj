@@ -21,6 +21,13 @@
 		735DC7DB27634D6800665C05 /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7DA27634D6800665C05 /* signup.swift */; };
 		735DC7DD276359C000665C05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 735DC7DC276359C000665C05 /* GoogleService-Info.plist */; };
 		735DC7E127649C6900665C05 /* accountTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7E027649C6900665C05 /* accountTop.swift */; };
+		735DC7E42764A17200665C05 /* searchTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7E32764A17200665C05 /* searchTop.swift */; };
+		735DC7E62764A5CA00665C05 /* sceneTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7E52764A5CA00665C05 /* sceneTop.swift */; };
+		735DC7E92764A62100665C05 /* top.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7E82764A62100665C05 /* top.swift */; };
+		735DC7EC2764AE4000665C05 /* newPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7EB2764AE4000665C05 /* newPost.swift */; };
+		735DC7EE2765A96B00665C05 /* cameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7ED2765A96B00665C05 /* cameraViewController.swift */; };
+		735DC7F02765B23100665C05 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7EF2765B23100665C05 /* mapViewController.swift */; };
+		735DC7F22765B25600665C05 /* saveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735DC7F12765B25600665C05 /* saveViewController.swift */; };
 		86C44955882B1B34F4D97140 /* Pods_real_life_locationsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0122E305C6BD98076069FC13 /* Pods_real_life_locationsTests.framework */; };
 		C3CD25B35329B868E116688E /* Pods_real_life_locations_real_life_locationsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F61B69F003DC3FF54F795AD /* Pods_real_life_locations_real_life_locationsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +72,13 @@
 		735DC7DA27634D6800665C05 /* signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
 		735DC7DC276359C000665C05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		735DC7E027649C6900665C05 /* accountTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountTop.swift; sourceTree = "<group>"; };
+		735DC7E32764A17200665C05 /* searchTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchTop.swift; sourceTree = "<group>"; };
+		735DC7E52764A5CA00665C05 /* sceneTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sceneTop.swift; sourceTree = "<group>"; };
+		735DC7E82764A62100665C05 /* top.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = top.swift; sourceTree = "<group>"; };
+		735DC7EB2764AE4000665C05 /* newPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newPost.swift; sourceTree = "<group>"; };
+		735DC7ED2765A96B00665C05 /* cameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraViewController.swift; sourceTree = "<group>"; };
+		735DC7EF2765B23100665C05 /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		735DC7F12765B25600665C05 /* saveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveViewController.swift; sourceTree = "<group>"; };
 		D1E61D0A381B0F81BF26695F /* Pods-real-life-locationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-real-life-locationsTests.debug.xcconfig"; path = "Target Support Files/Pods-real-life-locationsTests/Pods-real-life-locationsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D89B01499F0DEA33983F6E06 /* Pods-real-life-locations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-real-life-locations.release.xcconfig"; path = "Target Support Files/Pods-real-life-locations/Pods-real-life-locations.release.xcconfig"; sourceTree = "<group>"; };
 		EC533A8DE046009F3A6D8B68 /* Pods_real_life_locations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_real_life_locations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,9 +151,12 @@
 		735DC7A627634AC700665C05 /* real-life-locations */ = {
 			isa = PBXGroup;
 			children = (
+				735DC7E72764A60500665C05 /* top */,
+				735DC7EA2764ADEA00665C05 /* create */,
+				735DC7D727634CCE00665C05 /* login */,
 				735DC7DF27649C3A00665C05 /* account */,
 				735DC7DE27649C2F00665C05 /* search */,
-				735DC7D727634CCE00665C05 /* login */,
+				735DC7E22764A12B00665C05 /* scene */,
 				735DC7A727634AC700665C05 /* AppDelegate.swift */,
 				735DC7A927634AC700665C05 /* SceneDelegate.swift */,
 				735DC7AB27634AC700665C05 /* ViewController.swift */,
@@ -181,6 +198,7 @@
 		735DC7DE27649C2F00665C05 /* search */ = {
 			isa = PBXGroup;
 			children = (
+				735DC7E32764A17200665C05 /* searchTop.swift */,
 			);
 			path = search;
 			sourceTree = "<group>";
@@ -191,6 +209,33 @@
 				735DC7E027649C6900665C05 /* accountTop.swift */,
 			);
 			path = account;
+			sourceTree = "<group>";
+		};
+		735DC7E22764A12B00665C05 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				735DC7E52764A5CA00665C05 /* sceneTop.swift */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
+		735DC7E72764A60500665C05 /* top */ = {
+			isa = PBXGroup;
+			children = (
+				735DC7E82764A62100665C05 /* top.swift */,
+			);
+			path = top;
+			sourceTree = "<group>";
+		};
+		735DC7EA2764ADEA00665C05 /* create */ = {
+			isa = PBXGroup;
+			children = (
+				735DC7EB2764AE4000665C05 /* newPost.swift */,
+				735DC7ED2765A96B00665C05 /* cameraViewController.swift */,
+				735DC7EF2765B23100665C05 /* mapViewController.swift */,
+				735DC7F12765B25600665C05 /* saveViewController.swift */,
+			);
+			path = create;
 			sourceTree = "<group>";
 		};
 		CA814CEF82E22C66DB8247EE /* Frameworks */ = {
@@ -445,10 +490,17 @@
 			files = (
 				735DC7AC27634AC700665C05 /* ViewController.swift in Sources */,
 				735DC7A827634AC700665C05 /* AppDelegate.swift in Sources */,
+				735DC7E62764A5CA00665C05 /* sceneTop.swift in Sources */,
+				735DC7F02765B23100665C05 /* mapViewController.swift in Sources */,
+				735DC7EE2765A96B00665C05 /* cameraViewController.swift in Sources */,
 				735DC7DB27634D6800665C05 /* signup.swift in Sources */,
 				735DC7AA27634AC700665C05 /* SceneDelegate.swift in Sources */,
 				735DC7D927634D3B00665C05 /* login.swift in Sources */,
+				735DC7E42764A17200665C05 /* searchTop.swift in Sources */,
 				735DC7E127649C6900665C05 /* accountTop.swift in Sources */,
+				735DC7EC2764AE4000665C05 /* newPost.swift in Sources */,
+				735DC7E92764A62100665C05 /* top.swift in Sources */,
+				735DC7F22765B25600665C05 /* saveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

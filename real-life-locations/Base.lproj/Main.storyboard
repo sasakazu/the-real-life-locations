@@ -65,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3BW-xk-YOw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1813.0434782608697" y="150"/>
+            <point key="canvasLocation" x="-1513" y="155"/>
         </scene>
         <!--Signup-->
         <scene sceneID="sXW-jl-GEr">
@@ -118,24 +118,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBJ-wt-HXI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1054" y="150"/>
+            <point key="canvasLocation" x="-707" y="155"/>
         </scene>
         <!--タイムライン-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="real_life_locations" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="top" customModule="real_life_locations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d69-ug-XA7">
-                                <rect key="frame" x="186" y="438" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -145,10 +136,10 @@
             </objects>
             <point key="canvasLocation" x="1729" y="155"/>
         </scene>
-        <!--View Controller-->
+        <!--Search Top-->
         <scene sceneID="6MR-2Z-1Th">
             <objects>
-                <viewController id="CiC-AU-QlN" sceneMemberID="viewController">
+                <viewController id="CiC-AU-QlN" customClass="searchTop" customModule="real_life_locations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DM8-WZ-cWS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -176,21 +167,136 @@
             </objects>
             <point key="canvasLocation" x="2507" y="844"/>
         </scene>
-        <!--Account Top-->
+        <!--Save View Controller-->
+        <scene sceneID="4OE-26-jmb">
+            <objects>
+                <viewController id="LEp-Uc-jd3" customClass="saveViewController" customModule="real_life_locations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BoH-NS-r6o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmZ-YR-zar">
+                                <rect key="frame" x="186" y="168" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sCs-jT-vHF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PdB-wL-EV2">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="q9q-Hi-PvY"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Lc-Wt-y7v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3338" y="1551"/>
+        </scene>
+        <!--聖地場所-->
+        <scene sceneID="CZK-sU-LIC">
+            <objects>
+                <viewController id="dNP-LD-FfH" customClass="mapViewController" customModule="real_life_locations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fP0-TI-277">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Efr-eW-hUs">
+                                <rect key="frame" x="134" y="109" width="260" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dEu-Un-zST">
+                                <rect key="frame" x="20" y="223" width="374" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mrl-sc-is9">
+                                <rect key="frame" x="20" y="109" width="106" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="場所" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRg-lj-KCT">
+                                <rect key="frame" x="134" y="165" width="237" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bgs-D3-42C"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="聖地場所" id="oLK-a4-aD0">
+                        <barButtonItem key="rightBarButtonItem" title="シェア" id="qfY-1N-bh2"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="caf-4y-JNt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2505.7971014492755" y="1550.8928571428571"/>
+        </scene>
+        <!--写真を選択-->
+        <scene sceneID="5dr-CG-mEX">
+            <objects>
+                <viewController id="4c3-dH-Xbl" customClass="cameraViewController" customModule="real_life_locations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Vb-zj-QuK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5K7-oz-Rua">
+                                <rect key="frame" x="20" y="105" width="374" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rpg-Pr-hWK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="写真を選択" id="EB9-5U-cjN">
+                        <barButtonItem key="leftBarButtonItem" systemItem="bookmarks" id="ErX-65-0eU"/>
+                        <barButtonItem key="rightBarButtonItem" title="次へ" id="TXw-aH-Oai">
+                            <connections>
+                                <segue destination="dNP-LD-FfH" kind="show" identifier="goMapView" id="DTs-r7-d2Z"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9VA-2K-l5f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1729" y="1551"/>
+        </scene>
+        <!--アカウント-->
         <scene sceneID="gkd-He-SVm">
             <objects>
                 <viewController id="cnk-3m-3gm" customClass="accountTop" customModule="real_life_locations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hda-XL-6eM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8kQ-6V-fWp">
+                                <rect key="frame" x="20" y="102" width="123" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4RZ-gg-fAn">
+                                <rect key="frame" x="151" y="102" width="243" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="rLz-5D-LVC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="QSO-OZ-gth"/>
+                    <navigationItem key="navigationItem" title="アカウント" id="QSO-OZ-gth">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="dD6-rf-rUp"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="userLabel" destination="4RZ-gg-fAn" id="0Ce-ga-Id1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cmZ-hw-75y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1729" y="1547"/>
+            <point key="canvasLocation" x="1729" y="2261"/>
         </scene>
         <!--top-->
         <scene sceneID="1OU-fQ-nLp">
@@ -224,12 +330,13 @@
                     <connections>
                         <segue destination="OAD-n8-YIS" kind="relationship" relationship="viewControllers" id="UPK-A1-HVp"/>
                         <segue destination="K5f-Af-Oqw" kind="relationship" relationship="viewControllers" id="x29-jN-Nzp"/>
+                        <segue destination="aR3-j4-2Jx" kind="relationship" relationship="viewControllers" id="KWK-Rq-ovu"/>
                         <segue destination="SWs-mc-9Ep" kind="relationship" relationship="viewControllers" id="3H1-FR-LD0"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Rf-Ya-YUk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="119" y="844"/>
+            <point key="canvasLocation" x="-38" y="1235"/>
         </scene>
         <!--さがす-->
         <scene sceneID="TdS-GH-xI0">
@@ -267,7 +374,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YaA-04-Pfc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="967" y="1547"/>
+            <point key="canvasLocation" x="967" y="2261"/>
+        </scene>
+        <!--投稿-->
+        <scene sceneID="ik2-XG-0PG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aR3-j4-2Jx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="投稿" id="irA-XO-sw0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DhP-TS-Zqi">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4c3-dH-Xbl" kind="relationship" relationship="rootViewController" id="fqr-wm-FLD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZW2-eE-Aaf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967" y="1551"/>
         </scene>
     </scenes>
     <resources>
