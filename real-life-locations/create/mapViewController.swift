@@ -14,12 +14,14 @@ class mapViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     
+    @IBOutlet weak var shareImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         print(animeTitle)
         
-        label.text = animeTitle
+//        label.text = animeTitle
         
         // Do any additional setup after loading the view.
     }
