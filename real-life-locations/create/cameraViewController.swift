@@ -13,6 +13,7 @@ class cameraViewController: UIViewController, UICollectionViewDelegate, UICollec
 
     var photos: [UIImage] = []
     var selectedCount = 0
+    var postsPhoto:[String] = []
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -35,23 +36,7 @@ class cameraViewController: UIViewController, UICollectionViewDelegate, UICollec
         
     }
     
-    @IBAction func saveBtn(_ sender: Any) {
-        
-//        let db = Firestore.firestore()
-//        let user = Auth.auth().currentUser
-//
-//        db.collection("users").document(user!.uid).collection("posts").document().setData([
-//            "title":
-//
-//        ]) { err in
-//            if let err = err {
-//                print("Error writing document: \(err)")
-//            } else {
-//                print("Document successfully written!")
-//            }
-//        }
-        
-    }
+
     
     @IBAction func libraryBtn(_ sender: Any) {
         
@@ -70,6 +55,8 @@ class cameraViewController: UIViewController, UICollectionViewDelegate, UICollec
         
 
     }
+    
+    
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -116,6 +103,7 @@ class cameraViewController: UIViewController, UICollectionViewDelegate, UICollec
                 // photos に追加
                 self.photos.append(image)
 
+//                postsPhoto = image
                 
                 print(self.photos)
                 // reloadImage 内部で UITableView を操作しているため
@@ -139,7 +127,7 @@ class cameraViewController: UIViewController, UICollectionViewDelegate, UICollec
    
               let nextView = segue.destination as! mapViewController
    
-//              nextView.animeTitle = inputTitleTF.text!
+              nextView.postImages = photos
           }
       }
 
